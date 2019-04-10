@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+body {
+    font-family: 'Nunito', sans-serif;
+    @apply antialiased text-grey-darkest;
+}
+
+.animated {
+    transition-duration: 0.5s !important;
+    animation-duration: 0.5s !important;
+}
+
+.item {
+    @apply w-1/2 overflow-hidden;
+    @screen md {
+        @apply w-1/3;
+    }
+}
